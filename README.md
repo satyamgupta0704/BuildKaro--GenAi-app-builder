@@ -1,15 +1,15 @@
-# ⚡ Lovable Clone — AI-Powered App Builder
+# ⚡ BuildKaro — AI-Powered App Builder
 
-A **Lovable.dev-inspired** full-stack app builder. Describe a UI in plain English, get working React code instantly — with a live preview.
+A **GenAi** full-stack app builder. Describe a UI in plain English, get working React code instantly — with a live preview.
 
-**Stack:** FastAPI (Python) · Next.js · Claude AI (Anthropic) · Tailwind CSS
+**Stack:** FastAPI (Python) · Next.js · GeminiAi · Tailwind CSS
 
 ---
 
 ## 🏗 Architecture
 
 ```
-lovable-clone/
+BuildKaro/
 ├── backend/               ← FastAPI (Python)
 │   ├── main.py            ← App entry point, CORS, router registration
 │   ├── app/
@@ -95,7 +95,7 @@ Full conversation history is passed on every request — Claude maintains full c
 
 - 💬 **Multi-turn chat** — iterate on your app with follow-up prompts
 - ⚡ **FastAPI backend** — typed endpoints, Pydantic validation, auto Swagger docs
-- 🤖 **Claude AI** — generates self-contained React JSX components
+- 🤖 **Gemini AI** — generates self-contained React JSX components
 - 👁 **Live preview** — renders output in a sandboxed iframe via Babel Standalone
 - ⌨️ **Syntax highlighting** — code view with line numbers
 - 📋 **One-click copy** — copy generated code instantly
